@@ -53,18 +53,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "paper-profile-admin:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pk2-angular:build:production"
+              "browserTarget": "paper-profile-admin:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "paper-profile-admin:build"
           }
         },
         "test": {
@@ -99,7 +99,7 @@
         }
       }
     },
-    "pk2-angular-e2e": {
+    "paper-profile-admin-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -108,7 +108,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "pk2-angular:serve"
+            "devServerTarget": "paper-profile-admin:serve"
           }
         },
         "lint": {
@@ -123,7 +123,7 @@
       }
     }
   },
-  "defaultProject": "pk2-angular",
+  "defaultProject": "paper-profile-admin",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

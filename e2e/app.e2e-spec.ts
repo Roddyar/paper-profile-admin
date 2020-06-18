@@ -1,6 +1,6 @@
 import { Pk2AngularCliFreePage } from './app.po';
 
-describe('pk2-angular-cli-free App', () => {
+describe('paper-profile-admin App', () => {
   let page: Pk2AngularCliFreePage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('pk2-angular-cli-free App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
