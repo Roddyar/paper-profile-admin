@@ -1,0 +1,105 @@
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true"
+         style="background-image: url('./assets/img/sunset_my.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="avatar">
+                    <img src="./assets/img/faces/my.jpg" alt="Circle Image"
+                         class="img-circle img-no-padding img-responsive">
+                </div>
+                <div class="name">
+                    <h4 class="title">Roddy Arana Ruiz<br/></h4>
+                    <h6 class="description">Ingeniero en sistemas computacionales - Desarrollador Senior</h6>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12 ml-auto mr-auto text-center">
+                    <p style="text-align: justify">
+                        Mi experiencia laboral inicia cuando aún estaba cursando la universidad, luego de graduarme en
+                        el 2016 ingresé al sector público en una institución gubernamental de mi país de origen Ecuador,
+                        el MIES. He pasado los últimos tres años trabajando como desarrollador móvil, backend y frontend
+                        como parte de un equipo en compañías de Colombia y Ecuador, durante estas experiencias adquirí
+                        habilidades de gestión de proyectos y tiempo, así como la capacidad de comunicarme con los
+                        miembros de mi equipo y los clientes mientras cumplía efectivamente con los acuerdos y fechas
+                        de entrega.
+                    </p>
+                    <br/>
+                    <p style="text-align: justify">
+                        Como desarrollador independiente he colaborado en proyectos móviles, e-commerce y tareas de
+                        soporte.
+                    </p>
+                    <br/>
+                    <p style="text-align: justify">
+                        He trabajado en una multitud de proyectos web y móviles internos y externos de compañías con
+                        herramientas tales como: HTML, CSS, JS, Typescript, Bootstrap, Angular, Ionic, Android Nativo,
+                        Java, Spring Boot, Hibernate, diseños adaptativos, patrones de diseño, metodologías ágiles,
+                        Scrum y servidores de aplicaciones en proyectos tales como: Soluciones de comercio electrónico,
+                        aplicaciones móviles, aplicaciones de escritorio, servicios web. Practico el autoaprendizaje y
+                        gracias ello he logrado adquirir conocimientos en lenguajes tales como Python, en principios
+                        Solid y enfoques tales como DDD.
+                    </p>
+                    <br/>
+                    <p style="text-align: justify">
+                        En cuanto a lo personal me gusta pasar mi tiempo libre leyendo,
+                        compartiendo con mi esposa, estando al día con novedades tecnológicas y
+                        adquiriendo nuevas habilidades y conocimientos.</p>
+                </div>
+            </div>
+            <div class="section landing-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="text-center">Contacto</h2>
+                            <br>
+                            <h5 class="description">Pueden contactarme a mi correo personal:
+                                <strong>roddyaru@gmail.com</strong>
+                                , número de teléfono: <strong>3299735</strong>
+                                , número de celular: <strong>3158664842</strong>
+                                ó dejar sus datos en el siguiente formulario:
+                            </h5>
+                            <br>
+                            <form class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Nombre</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i
+                                                        class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name"
+                                                   (focus)="focus=true" (blur)="focus=false">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Email</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus1===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">  <i
+                                                        class="nc-icon nc-email-85"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Email"
+                                                   (focus)="focus1=true" (blur)="focus1=false">
+                                        </div>
+                                    </div>
+                                </div>
+                                <label>Mensaje</label>
+                                <textarea class="form-control" rows="4"
+                                          placeholder="Tell us your thoughts and feelings..."></textarea>
+                                <div class="row">
+                                    <div class="col-md-4 mr-auto ml-auto">
+                                        <button class="btn btn-danger btn-lg btn-fill">Enviar Mensaje</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
