@@ -4,6 +4,7 @@ const app = express();
 
 // Serve static files....
 app.use(express.static(__dirname + '/dist/paper-profile-admin'));
+console.log(__dirname + ' Server started running..');
 // Send all requests to index.html
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname + '/dist/paper-profile-admin/index.html'));
