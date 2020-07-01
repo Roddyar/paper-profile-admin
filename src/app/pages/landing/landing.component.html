@@ -5,11 +5,8 @@
             <h1>Hola, soy</h1>
             <h3>Roddy Arana Ruiz</h3>
             <br/>
-            <!--
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-neutral btn-round"><i
-                    class="fa fa-play"></i>Watch video</a>
-            <button type="button" class="btn btn-outline-neutral btn-round">Download</button>
-            -->
+            <button (click)="goToLink('./assets/img/HojadeVida_RoddyArana.pdf')" type="button"
+                    class="btn btn-outline-neutral btn-round">Hoja de vida</button>
         </div>
     </div>
 </div>
@@ -41,7 +38,18 @@
                             </div>
                             <div class="description">
                                 <h4 class="info-title">Lenguajes de programación</h4>
-                                <p class="description">Java (versions 6, 7, 8), Python 3 (básico). </p>
+                                <p class="description">Java (versions 6, 7, 8), Python 3 (básico).</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide class="col-md-3">
+                        <div class="info">
+                            <div class="icon icon-success">
+                                <i class="nc-icon nc-key-25"></i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Java</h4>
+                                <p class="description">Spring Boot, Hibernate, Maven, JAX-WS, JAX-RS, Project Reactor.</p>
                             </div>
                         </div>
                     </ng-template>
@@ -63,7 +71,7 @@
                             </div>
                             <div class="description">
                                 <h4 class="info-title">Desarrollo Web</h4>
-                                <p>JSF, Javascript, Typescript, HTML5, Angular, Bootstrap, Css.</p>
+                                <p>JSF, Javascript, Typescript, HTML5, Angular, Bootstrap, Css, UX.</p>
                             </div>
                         </div>
                     </ng-template>
@@ -81,11 +89,33 @@
                     <ng-template carouselSlide class="col-md-3">
                         <div class="info">
                             <div class="icon icon-success">
+                                <i class="nc-icon nc-refresh-69"></i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Control de versiones</h4>
+                                <p>Git, Subversion, Bitbucket.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide class="col-md-3">
+                        <div class="info">
+                            <div class="icon icon-success">
+                                <i class="nc-icon nc-bullet-list-67"></i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Administración de tareas</h4>
+                                <p>Jira, Mantis.</p>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide class="col-md-3">
+                        <div class="info">
+                            <div class="icon icon-success">
                                 <i class="nc-icon nc-settings-gear-65"></i>
                             </div>
                             <div class="description">
-                                <h4 class="info-title">Metodología y buenas prácticas</h4>
-                                <p>SCRUM, Desarrollo ágil, Patrones de diseño, Solid, DDD</p>
+                                <h4 class="info-title">Metodologías y buenas prácticas</h4>
+                                <p>SCRUM, Desarrollo ágil, Patrones de diseño, Solid, DDD.</p>
                             </div>
                         </div>
                     </ng-template>
@@ -352,7 +382,7 @@
             <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper">
                     <ngb-tabset [justify]="'center'">
-                        <ngb-tab title="Despliegues">
+                        <ngb-tab title="Aplicaciones">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
