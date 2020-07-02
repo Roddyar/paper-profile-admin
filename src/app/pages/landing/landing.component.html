@@ -394,13 +394,25 @@
                                                              class="img-circle img-no-padding img-responsive">
                                                     </div>
                                                     <div class="col-md-1 col-sm-1 ml-auto mr-auto">
-                                                        <h6>Angular<br/><small>Admin Dashboard</small></h6>
+                                                        <h6>Angular<br/><small>My Profile</small></h6>
                                                     </div>
                                                 </div>
                                             </li>
                                             <hr/>
                                             <li>
-                                                <div class="row">
+                                                <div (click)="goToLink('https://crud-dashboard.herokuapp.com')" class="row">
+                                                    <div class="col-md-1 col-sm-1 ml-auto mr-auto">
+                                                        <img src="./assets/img/faces/angular.jpg" alt="Circle Image"
+                                                             class="img-circle img-no-padding img-responsive">
+                                                    </div>
+                                                    <div class="col-md-1 col-sm-1 ml-auto mr-auto">
+                                                        <h6>Angular<br/><small>Crud Dashboard</small></h6>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr/>
+                                            <li>
+                                                <div class="row" (click)="goToLink('https://crud-services.herokuapp.com/person')">
                                                     <div class="col-md-1 col-sm-1 ml-auto mr-auto">
                                                         <img src="./assets/img/faces/java.jpg" alt="Circle Image"
                                                              class="img-circle img-no-padding img-responsive">
